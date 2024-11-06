@@ -1,1 +1,1 @@
-# chatwithyangjia
+# 和知名游资《炒股养家》聊天

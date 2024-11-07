@@ -1,13 +1,17 @@
 #vector-db-create.py
 # create a vector database from a pdf file
-
+import os
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import TextLoader
 
+current_directory = os.getcwd()
+relative_path = os.path.join(current_directory, './data/yangjia.txt')
 
-loaders = [PyPDFLoader('../data/yangjia.txt')]
+print(relative_path)    
+loaders = [TextLoader(relative_path, encoding='utf-8')]
 
 docs = []
 for file in loaders:

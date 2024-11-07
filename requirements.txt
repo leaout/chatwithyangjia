@@ -5,3 +5,4 @@ langchain_community
 langchain_openai
 openai
 chromadb
+dashscope

@@ -10,7 +10,7 @@ python vectordb_create.py
 ```
 ## 和养家老师聊天
 ```
-python question.py
+python chat.py
 ```
 ## Example
 ![image](./img/example.jpg)

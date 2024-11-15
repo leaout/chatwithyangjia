@@ -13,4 +13,4 @@ python vectordb_create.py
 python question.py
 ```
 ## Example
-![image](./img/run.png)
+![image](./img/example.jpg)
